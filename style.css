@@ -132,6 +132,12 @@ a {
 .footer-icons a {
     display: inline-block;
     margin: 0 14px;
+    color: #969BAB;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #E7E7E8;
+    padding: 6px 6px;
 }
 
 .footer-bottom p {
