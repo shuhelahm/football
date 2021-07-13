@@ -68,9 +68,40 @@ a {
 
 /* players profile start */
 
+.players-section {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+    background-color: #fff;
+}
+
 .players {
     display: grid;
-    grid-template-columns: repeat(3, fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 27px;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.player h3 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.player p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin: 0;
 }
 
 /* players profile end */
