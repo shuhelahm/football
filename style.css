@@ -122,6 +122,16 @@ a {
 .footer-top img {
     width: 483.87px;
     height: 110px;
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    margin-bottom: 2px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    margin: 0 14px;
 }
 
 .footer-bottom p {
@@ -130,6 +140,7 @@ a {
     line-height: 24px;
     text-transform: capitalize;
     color: black;
+    margin-bottom: 63px;
 }
 
 
