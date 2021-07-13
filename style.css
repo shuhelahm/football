@@ -11,11 +11,6 @@ body {
 
 a {
     text-decoration: none;
-    background: #E02C6D;
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
 }
 
 /* banner start */
@@ -41,7 +36,23 @@ a {
 }
 
 .banner-left a {
+    display: inline-block;
     padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 120px;
+    height: 25px;
+}
+
+.banner-left a:hover {
+    border-radius: 10px;
+    font-size: 30px;
+    width: 200px;
+    height: 30px;
+    transition: width 1s ease-in-out, height 1s ease-in-out, font-size 1s ease-in-out, border-radius 1s ease-in-out;
 }
 
 .banner-arrow {
