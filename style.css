@@ -50,7 +50,7 @@ a {
     border-radius: 10px;
     font-size: 30px;
     width: 200px;
-    height: 30px;
+    height: 40px;
     transition: width 1s ease-in-out, height 1s ease-in-out, font-size 1s ease-in-out, border-radius 1s ease-in-out;
 }
 
@@ -63,6 +63,18 @@ a {
     width: 556.01px;
     height: 438px;
 }
+
+/* banner end */
+
+/* players profile start */
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+}
+
+/* players profile end */
+
 
 /* media query */
 
