@@ -5,5 +5,51 @@
 /* common css */
 
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* banner start */
+
+.banner-secion {
+    display: flex;
+    justify-content: center;
+    padding: 109px 0 86px;
+    background-color: #2D25A0;
+}
+
+.banner-left {
+    margin-right: 102px;
+}
+
+.banner-left h1 {
+    width: 485px;
+    height: 230px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.banner-left a {
+    padding: 10px 24px;
+}
+
+.banner-arrow {
+    width: 24px;
+    height: 24px;
+}
+
+.banner-right img {
+    width: 556.01px;
+    height: 438px;
 }
