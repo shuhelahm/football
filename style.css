@@ -182,11 +182,11 @@ a {
     .banner-right img {
         width: 85%;
         height: 259px;
-        padding: 0 15px;
+        padding-left: 15px;
     }
 
-    .players-section {
-        display: none;
+    .players {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .footer-section {
