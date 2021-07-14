@@ -171,9 +171,8 @@ a {
         font-weight: bold;
         font-size: 36px;
         line-height: 50px;
-        padding-left: 16px;
-        padding-right: 66px;
-        margin-bottom: 30px;
+        padding: 0 66px 0 16px;
+        margin-bottom: 60px;
     }
 
     .banner-left a {
