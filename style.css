@@ -24,6 +24,7 @@ a {
 }
 
 .banner-left {
+    padding: 10px;
     width: 40%;
     margin-right: 102px;
 }
@@ -205,7 +206,6 @@ a {
     }
 
     .banner-left {
-        width: 80%;
         margin-bottom: 50px;
     }
 
@@ -224,7 +224,6 @@ a {
     }
 
     .banner-right {
-        width: 90%;
         height: 259px;
     }
 
