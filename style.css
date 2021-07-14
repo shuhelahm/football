@@ -201,7 +201,11 @@ a {
         width: 100%;
     }
 
-    .footer-top img {
+    .footer-section {
+        display: none;
+    }
+
+    /* .footer-top img {
         margin-bottom: 50px;
     }
 
@@ -211,7 +215,7 @@ a {
 
     .footer-bottom p {
         margin-bottom: 187px;
-    }
+    } */
 
 
 
