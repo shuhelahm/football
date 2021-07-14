@@ -125,6 +125,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .news-content {
@@ -140,6 +141,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .schedule-content {
@@ -243,9 +245,17 @@ a {
         align-items: center;
     }
 
+    .news-section {
+        padding-bottom: 30px;
+    }
+
     .news-content {
         flex-direction: column;
         align-items: center;
+    }
+
+    .schedule-section {
+        padding-bottom: 30px;
     }
 
     .schedule-content {
@@ -333,9 +343,17 @@ a {
         grid-gap: 30px 27px;
     }
 
+    .news-section {
+        padding-bottom: 50px;
+    }
+
     .news-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .schedule-section {
+        padding-bottom: 50px;
     }
 
     .schedule-content {
