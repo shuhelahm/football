@@ -64,7 +64,7 @@ a {
 }
 
 .banner-right img {
-    width: 556.01px;
+    width: 80%;
     height: 438px;
 }
 
@@ -306,6 +306,7 @@ a {
     .banner-left {
         width: 40%;
         margin-right: 102px;
+        padding: 10px;
     }
 
     .banner-left h1 {
