@@ -195,7 +195,6 @@ a {
     .players {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0 24px;
-        justify-content: center;
     }
 
     .player img {
