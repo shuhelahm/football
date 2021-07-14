@@ -16,6 +16,7 @@ a {
 /* banner start */
 
 .banner-secion {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 109px 0 86px;
@@ -23,6 +24,7 @@ a {
 }
 
 .banner-left {
+    width: 40%;
     margin-right: 102px;
 }
 
@@ -58,6 +60,10 @@ a {
 .banner-arrow {
     width: 24px;
     height: 24px;
+}
+
+.banner-right {
+    width: 40%;
 }
 
 .banner-right img {
@@ -164,11 +170,13 @@ a {
 
 @media only screen and (max-width: 688px) {
     .banner-secion {
+        width: 100%;
         display: block;
         padding: 80px 0 60px;
     }
 
     .banner-left {
+        width: 80%;
         margin-bottom: 50px;
     }
 
@@ -186,8 +194,13 @@ a {
         margin-left: 19px;
     }
 
+    .banner-right {
+        width: 90%;
+        height: 259px;
+    }
+
     .banner-right img {
-        width: 85%;
+        width: 100%;
         height: 259px;
         padding-left: 15px;
     }
@@ -222,4 +235,61 @@ a {
 
 /* tab devices */
 
-@media only screen and (min-width: 688) and (max-width: 992px) {}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .banner-secion {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 109px 0 86px;
+    }
+
+    .banner-left {
+        width: 40%;
+        margin-right: 102px;
+    }
+
+
+    .banner-left h1 {
+        width: 70%;
+        height: 230px;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 65px;
+        margin-bottom: 60px;
+    }
+
+
+    .banner-left a {
+        width: 30%;
+    }
+
+
+    .banner-arrow {
+        width: 5%;
+    }
+
+
+
+    .banner-right {
+        width: 40%;
+    }
+
+
+    .banner-right img {
+        width: 80%;
+    }
+
+
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px 27px;
+    }
+
+    .footer-section {
+        display: none;
+    }
+
+
+}
