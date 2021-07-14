@@ -212,11 +212,7 @@ a {
         align-items: center;
     }
 
-    .footer-section {
-        display: none;
-    }
-
-    /* .footer-top img {
+    .footer-top img {
         margin-bottom: 50px;
     }
 
@@ -226,7 +222,7 @@ a {
 
     .footer-bottom p {
         margin-bottom: 187px;
-    } */
+    }
 
 
 
@@ -286,10 +282,5 @@ a {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 30px 27px;
     }
-
-    .footer-section {
-        display: none;
-    }
-
 
 }
