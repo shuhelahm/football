@@ -131,9 +131,11 @@ a {
 }
 
 .news {
+    display: flex;
+    justify-content: center;
     width: 100%;
     padding: 5px;
-    height: 150px;
+    height: 400px;
 }
 
 .news-image {
@@ -141,8 +143,8 @@ a {
 }
 
 .news-image img {
-    width: 100%;
-    height: 50px;
+    width: 50%;
+    height: 200px;
 }
 
 .news-details {
