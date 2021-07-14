@@ -287,16 +287,16 @@ td {
         align-items: center;
     }
 
-    .news-section {
+    /* .news-section {
         width: 100%;
         display: flex;
-        justify-content: center;
-    }
+        flex-direction: column;
+        align-items: center;
+    } */
 
     .news-content {
-        width: 80%;
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .table-schedule-part {
@@ -383,16 +383,9 @@ td {
         grid-gap: 30px 27px;
     }
 
-    .news-section {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
     .news-content {
-        width: 80%;
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
