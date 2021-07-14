@@ -15,7 +15,7 @@ a {
 
 /* banner start */
 
-.banner-secion {
+.banner-section {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -316,10 +316,6 @@ a {
         font-size: 64px;
         line-height: 65px;
         margin-bottom: 60px;
-    }
-
-    .banner-arrow {
-        width: 5%;
     }
 
     .banner-right {
