@@ -212,20 +212,36 @@ a {
         align-items: center;
     }
 
+    .footer-top {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+
     .footer-top img {
         margin-bottom: 50px;
     }
 
+    .footer-top img {
+        width: 80%;
+    }
+
     .footer-icons {
+        display: flex;
+        justify-content: center;
+        width: 60%;
         margin-bottom: 2px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: center;
+        width: 60%;
     }
 
     .footer-bottom p {
         margin-bottom: 187px;
     }
-
-
-
 
 }
 
@@ -245,7 +261,6 @@ a {
         margin-right: 102px;
     }
 
-
     .banner-left h1 {
         width: 70%;
         height: 230px;
@@ -255,28 +270,21 @@ a {
         margin-bottom: 60px;
     }
 
-
     .banner-left a {
         width: 30%;
     }
-
 
     .banner-arrow {
         width: 5%;
     }
 
-
-
     .banner-right {
         width: 40%;
     }
 
-
     .banner-right img {
         width: 80%;
     }
-
-
 
     .players {
         grid-template-columns: repeat(2, 1fr);
