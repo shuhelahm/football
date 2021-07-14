@@ -198,6 +198,10 @@ a {
     }
 
     .player img {
+        width: 80%;
+    }
+
+    .player img {
         width: 100%;
     }
 
