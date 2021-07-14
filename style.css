@@ -195,15 +195,28 @@ a {
     .players {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 24px;
+        justify-content: center;
     }
 
     .player img {
         width: 100%;
     }
 
-    .footer-section {
-        display: none;
+    .footer-top img {
+        margin-bottom: 50px;
     }
+
+    .footer-icons {
+        margin-bottom: 2px;
+    }
+
+    .footer-bottom p {
+        margin-bottom: 187px;
+    }
+
+
+
+
 }
 
 /* tab devices */
