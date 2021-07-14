@@ -121,6 +121,11 @@ a {
 
 /* feature start */
 
+.feature-section {
+    display: flex;
+    justify-content: center;
+}
+
 .latest-news {
     width: 40%;
 }
@@ -153,6 +158,14 @@ a {
     margin: 0;
     font-size: 14px;
 
+}
+
+.feature-videos {
+    margin-left: 50px;
+}
+
+.video {
+    margin-bottom: 20px;
 }
 
 /* feature end */
