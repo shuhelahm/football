@@ -130,7 +130,6 @@ a {
 .news-content {
     width: 80%;
     display: flex;
-    justify-content: center;
 }
 
 /* news end */
