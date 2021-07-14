@@ -130,7 +130,11 @@ a {
 .news-content {
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.news {
+    width: 30%;
 }
 
 /* news end */
@@ -146,7 +150,11 @@ a {
 .schedule-content {
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.schedule {
+    width: 30%;
 }
 
 /* schedule end */
