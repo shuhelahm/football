@@ -170,6 +170,62 @@ a {
 
 /* feature end */
 
+/* point-table start */
+
+.table-schedule-part {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.table-section {
+    width: 30%;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    height: 200px;
+}
+
+table th,
+td {
+    border: 1px solid grey;
+}
+
+.schedule-section {
+    display: flex;
+    width: 70%;
+}
+
+.schedule {
+    width: 33.33%;
+    position: relative;
+}
+
+.schedule:hover .schedule-details {
+    display: block;
+}
+
+.schedule-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.schedule-details {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    display: none;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+
+
+
+/* point-table end */
+
 /* footer start */
 
 .footer-section {
